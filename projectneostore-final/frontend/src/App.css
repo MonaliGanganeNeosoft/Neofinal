@@ -1,0 +1,261 @@
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:inherit
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label{
+margin:auto 10px auto 5px;
+}
+
+.loginpage{
+  display: flex;
+  padding:5px;
+}
+
+.loginpage>hr{
+  width: 5px; 
+  height: 50vh;
+}
+
+.loginpage>div{
+  width: 100%;
+  padding:0 20px;
+}
+
+.login,.changepassword{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  height:auto;
+  justify-content: center;  
+}
+
+
+.login>Form ,.registration{
+  width: 100%;  
+  padding:20px;
+  margin-top:20px;
+  background: rgba( 250, 250, 250, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.registration{
+  width:60vw;
+  margin:20px auto;  
+}
+
+.login>Form>*,.registration>*{
+  margin:20px 0px;
+}
+
+.socialLogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLogin>div,.google,.facebook{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width:30vw;
+  height:10vh;   
+  margin:auto;
+  color:white;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  word-break: break-all;
+  overflow: hidden;
+  border-radius: 5px;
+  border:0px;
+  transition: transform 0.3s,filter 0.3s;
+}
+
+.google,.facebook{
+  width:45%;
+  height:60px
+}
+
+.socialLogin>div:hover,.google:hover,.facebook:hover{
+  cursor:pointer;
+  transform:scale(1.03);
+  filter:brightness(110%)
+}
+
+.customneofooter{
+  display: flex;
+  padding:5px;
+  background-color: black;
+  text-align: center; 
+  color:white ;
+  justify-content: space-around; 
+}
+
+.customneofooter>div{
+  width: 30vw;
+  word-break: break-word;
+}
+
+.customneofooter>div>ul{
+  list-style: none;
+  padding-left: 0
+}
+
+.iconlogin{
+  font-size: x-large;
+  right: 5px;
+  top: 6px;
+  position:absolute;
+  z-index: 3;
+}
+
+.navbar-light .navbar-toggler{
+  background-color: white;
+}
+
+.product{
+  display:flex;
+}
+
+.productdiv1{
+  width:20%
+}
+
+.productdiv2{
+  width:75%
+}
+
+.myaccountmain{
+  display: flex;
+  justify-content: space-around;
+}
+
+.myaccountmaindiv1{
+  width:'25%'
+}
+
+.myaccountmaindiv2{
+  width:'70%'
+}
+
+.myaccountsidebar>button{
+  color:blue;
+  text-align: center;
+  border-radius: 5px;
+  padding:5px 5px;
+  margin:7px 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  transition:box-shadow 0.4s ;
+}
+
+.myaccountsidebar>button:hover{
+cursor: pointer;
+color:blue;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 8px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .loginpage{
+    flex-direction: column-reverse;
+  }
+  
+.loginpage>hr{
+  width: 100vw; 
+  height: 5px;
+}
+.socialLogin>div{
+width:60vw;
+height:10vh;
+margin:5px auto;
+}
+
+  .customneofooter{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .customneofooter>div{
+    margin:10px 0;
+    width:100%;
+    border-bottom: 2px solid grey;
+  }
+
+  .product{
+    flex-direction: column;
+  }
+
+  .productdiv1{
+    width:100%
+  }
+  
+  .productdiv2{
+    width:100%
+  }
+
+  .myaccountmain{
+    flex-direction: column;
+  }
+
+  .myaccountmaindiv1{
+    width:'90%'
+  }
+  
+  .myaccountmaindiv2{
+    width:'90%'
+  }
+}
+
+
+.greenColor{
+  color:green !important;
+}
+.redColor{
+  color: red !important;
+}

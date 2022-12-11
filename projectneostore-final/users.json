@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "61dd99f1372dbeebadf2ebf3"
+  },
+  "first_name": "pihj",
+  "last_name": "Gangane",
+  "email": "abc@gmail.com",
+  "password": "$2a$10$8GNu3W1oMGWyvJQw/Bqpe.nMDC.tRShkMsF1ZzXA.G7VPwEmLCmPy",
+  "phone_no": 1231231231,
+  "dob": "02/23/2019",
+  "avatar": {
+    "public_id": "avatars/qtvefrirwjyazrx5ucxi",
+    "url": "https://res.cloudinary.com/drjlacryj/image/upload/v1641912817/avatars/qtvefrirwjyazrx5ucxi.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2022-01-11T14:53:37.387Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61dda12a372dbeebadf2ecc7"
+  },
+  "first_name": "shreyu",
+  "last_name": "asht",
+  "email": "xyz@gmail.com",
+  "password": "$2a$10$FsuAwAkp82ukBVjKXhpbXeRR8TBVCV.PRQS4ZA94Rel8mZum2fbqW",
+  "phone_no": 1231231231,
+  "dob": "02/23/2019",
+  "avatar": {
+    "public_id": "avatars/eagjhualuo2cdn23wtzb",
+    "url": "https://res.cloudinary.com/drjlacryj/image/upload/v1641914666/avatars/eagjhualuo2cdn23wtzb.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2022-01-11T15:24:26.323Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61dda1e0372dbeebadf2ecf3"
+  },
+  "first_name": "kartik",
+  "last_name": "Gangane",
+  "email": "piyu@gmail.com",
+  "password": "$2a$10$40.Gpdeox3HjU3go2yTANOJPxaGUcCUaR4zmBK/ZqKcPytKzhr3s6",
+  "phone_no": 2323232323,
+  "dob": "02/23/2019",
+  "avatar": {
+    "public_id": "avatars/dakfpcoowqdbbbxhu5vr",
+    "url": "https://res.cloudinary.com/drjlacryj/image/upload/v1641914848/avatars/dakfpcoowqdbbbxhu5vr.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2022-01-11T15:27:28.328Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e044ef46916379000c6d3b"
+  },
+  "first_name": "Monali",
+  "last_name": "Gangane",
+  "email": "moni.gangane@gmail.com",
+  "password": "$2a$10$L4nE95WK9oYUuDnGDyG.luBjAlVpvc91RLSVcygdhsdYG5gp3nkZW",
+  "phone_no": 2323232323,
+  "dob": "02/23/2019",
+  "avatar": {
+    "public_id": "avatars/ecjkopzqtxdioha9w1gv",
+    "url": "https://res.cloudinary.com/drjlacryj/image/upload/v1642087662/avatars/ecjkopzqtxdioha9w1gv.jpg"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2022-01-13T15:27:43.443Z"
+  },
+  "__v": 0
+}]
